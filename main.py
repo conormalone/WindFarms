@@ -32,7 +32,7 @@ plt.xlabel('Height')
 plt.title('Turbine Height')
 plt.show()
 
-#add state lightning data
+#add state lightning data as dataframe with State and abbreviation cols
 state_abbr = pd.DataFrame({'State': ["Alabama",
     "Alaska",
     "Arizona",
